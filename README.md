@@ -1,5 +1,5 @@
 # TelegramMentionAllBot
-A bot for telegram that mentions users.
+A bot for telegram that can mention a set of users in the group.
 
 ## Use
 1. Add the bot to a group-chat.
