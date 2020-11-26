@@ -12,7 +12,7 @@ def set_members(bot, update):
     global members 
     members[str(update.message.chat.id)]=update.message.text.replace("/set_members"," ")
     update.message.reply_text(
-        'Guardados miembros')
+        'The members have been saved, you can use the all command to mention them.')
     print ("Setted members: "+update.message.text)
     
 
